@@ -8,26 +8,27 @@ A NodeJS chat application where you can create a specific rooms to chat with fri
 
 JavaScript (Nodejs)
 
+# Proposed Technologies
+
+Socket.io
+
 # Top-level directory layout
 
-    📦linkop-functions
-        ┣📦functions
-            ┣📦handlers
-                ┣ 📜screams.js
-                ┗ 📜users.js
+    📦chat-app
+        ┣📦public
+            ┣📦img
+                ┗ 📜favicon.png
+            ┣📦js
+                ┗ 📜chat.js
+            ┣ 📜chat.html
+            ┗ 📜index.html
+        ┣📦src
             ┣📦utils
-                ┣ 📜admin.js
-                ┣ 📜config.js
-                ┣ 📜fbAuth.js
-                ┗ 📜validators.js
-            ┣ 📜.gitignore
-            ┣ 📜index.js
-            ┣ 📜package-lock.json
-            ┗ 📜package.json
-        ┣ 📜.firebaserc
+                ┣ 📜messages.js
+                ┗ 📜users.js
+            ┗ 📜index.js
         ┣ 📜.gitignore
-        ┣ 📜dbschema.js
-        ┣ 📜firebaserc
+        ┣ 📜package.json
         ┣ 📜package-lock.json
         ┗ 📜README.md
 
@@ -37,7 +38,7 @@ JavaScript (Nodejs)
 ### Clone the repository 
 
 ```
-git clone https://github.com/gcodezz/Linkop-functions.git
+git clone https://github.com/gcodezz/Chat-App.git
 
 ```
 
